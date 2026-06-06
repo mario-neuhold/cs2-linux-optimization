@@ -1,0 +1,43 @@
+strict_tdd: false
+context: |
+  cs2-optimization is a Linux system optimization project for Counter-Strike 2 gaming performance.
+  No traditional build tool. Artifacts: shell scripts (.sh), system config files (/etc/, /sys/, ~/.config/),
+  Steam launch options, CS2 autoexec.cfg.
+  Hardware: Intel i5-10300H (4c/8t), 14GB RAM, NVIDIA GTX 1650 Mobile (4GB), Intel UHD integrated.
+  OS: Linux kernel 7.0.0-22-generic, Wayland session. Steam installed. Gamemode NOT installed. prime-run NOT available.
+rules:
+  proposal:
+    require_problem_statement: true
+  spec:
+    require_acceptance_criteria: true
+  design:
+    require_tradeoffs: true
+  tasks:
+    protect_review_workload: true
+  apply:
+    test_command: ""
+  verify:
+    test_command: ""
+testing:
+  detected: "2026-06-05"
+  runner:
+    command: ""
+    framework: "none"
+  layers:
+    unit: ""
+    integration: ""
+    e2e: ""
+  commands:
+    unit: []
+    integration: []
+    e2e: []
+  coverage:
+    command: ""
+    commands: []
+quality:
+  lint: ""
+  lint_commands: []
+  typecheck: ""
+  typecheck_commands: []
+  format: ""
+  format_commands: []
