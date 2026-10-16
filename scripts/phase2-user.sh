@@ -76,7 +76,7 @@ fi
 # -----------------------------------------------------------------------------
 log "Task 2.3 — Creating CS2 cfg directory"
 
-CS2_CFG_DIR="$HOME/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/game/cfg"
+CS2_CFG_DIR="$HOME/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg"
 
 if [[ -d "$CS2_CFG_DIR" ]]; then
     ok "CS2 cfg directory already exists"
